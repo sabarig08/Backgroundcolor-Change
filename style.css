@@ -1,0 +1,25 @@
+.color{
+    margin-top: 200px;
+    margin-left: 30%;
+    background-color: red;
+    height: 250px;
+    width: 600px;
+}
+.abc{
+    display: inline;
+    margin-left: 800px;
+    margin-top: 300px;
+}
+button{
+    display: inline;
+    margin-left: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+h3{
+    background-color: black;
+    width: 160px;
+    color: white;
+    margin-left: 200px;
+    margin-top: 100px;
+}

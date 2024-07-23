@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Background Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="default color" onclick="fun()">
+        <div class="abc">
+            <h3>Background Color</h3><br>
+        </div>
+            <button class="default blue" onclick="fun()">Click Me</button>
+   
+    </div>
+    <script>
+        var message=document.getElementsByClassName("default");
+       function fun(){
+        document.getElementsByClassName("color")[0].style.backgroundColor="gold";
+       }
+    </script>
+    
+</body>
+</html>
